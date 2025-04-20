@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="https://schema.org/Person">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ghulam Rasool - CV</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="CV.css">
+  <style>
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid #003366;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: #003366;
+      margin: 0;
+    }
+
+    h2 {
+      font-size: 1.5em;
+      color: #ff6600;
+      border-bottom: 2px solid #ff6600;
+      padding-bottom: 5px;
+    }
+
+    .section {
+      margin-bottom: 20px;
+    }
+
+    .education {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .edu-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      background-color: #f4f4f4;
+      border-left: 5px solid #ff6600;
+      border-radius: 5px;
+    }
+
+    .edu-institute {
+      font-weight: bold;
+      color: #003366;
+    }
+
+    .edu-year {
+      background-color: #ff6600;
+      color: #fff;
+      padding: 3px 8px;
+      border-radius: 4px;
+    }
+
+    .edu-grade {
+      background-color: #003366;
+      color: #fff;
+      padding: 3px 8px;
+      border-radius: 4px;
+    }
+
+    .section ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    .section ul li {
+      margin-bottom: 10px;
+    }
+
+    .icon {
+      margin-right: 10px;
+      color: #ff6600;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+    <div class="container" itemprop="mainEntity" itemscope itemtype="https://schema.org/Person">
+        <header>
+            <img src="PIC1.jpg" alt="Muhamad Rashid" itemprop="image">
+            <h1 itemprop="name">Muhammad Rashid</h1>
+            <p style="font-size: 1.2em; color: #ff6600;" itemprop="jobTitle">CS Student</p>
+          </header>
+
+          <section class="section" itemprop="description">
+      <h2>About Me</h2>
+      <p>"Passionate Computer Science student with a strong foundation in programming, algorithms, and software development. Eager to apply technical skills and problem-solving abilities to real-world challenges in the tech industry."</p>
+    </section>
+
+    <section class="section">
+        <h2>Education</h2>
+        <div class="education" itemscope itemtype="https://schema.org/EducationOccupationalCredential">
+          <div class="edu-item" itemprop="educationalProgram">
+            <span class="edu-institute" itemprop="provider">University of Sargodha</span>
+            <span>Bachelor in Computer Science</span>
+            <span class="edu-year" itemprop="startDate">2021</span> - <span itemprop="endDate">2025</span>
+            <span class="edu-grade">CGPA: 7th-Semester</span>
+          </div>
+          <div class="edu-item">
+            <span class="edu-institute">LINZ COLLEGE DIKHAN</span>
+            <span>Pre-Engineering</span>
+            <span class="edu-year">2019 - 2021</span>
+            <span class="edu-grade">968/1100</span>
+          </div>
+          <div class="edu-item">
+            <span class="edu-institute">NADIK SCIENCE SCHOOL DIKHAN</span>
+            <span>Science</span>
+            <span class="edu-year">2018</span>
+            <span class="edu-grade">872/1100</span>
+          </div>
+        </div>
+      </section>
+
+    <section class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li itemprop="knowsAbout"><i class="fa-solid fa-comments icon"></i> Good Communication</li>
+        <li itemprop="knowsAbout"><i class="fa-solid fa-lightbulb icon"></i> Problem Solving</li>
+        <li itemprop="knowsAbout"><i class="fa-solid fa-code icon"></i> Semantic Web</li>
+        <li itemprop="knowsAbout"><i class="fa-solid fa-brain icon"></i> Ontologies</li>
+        <li itemprop="knowsAbout"><i class="fa-solid fa-clock icon"></i> Time Management</li>
+        <li itemprop="knowsAbout"><i class="fa-solid fa-users icon"></i> Team Collaboration</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Languages</h2>
+      <ul>
+        <li itemprop="knowsLanguage"><i class="fa-solid fa-language icon"></i> Urdu</li>
+        <li itemprop="knowsLanguage"><i class="fa-solid fa-language icon"></i> English</li>
+        <li itemprop="knowsLanguage"><i class="fa-solid fa-language icon"></i> Siraiki</li>
+       
+        
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Interests</h2>
+      <ul>
+        <li><i class="fa-solid fa-book icon"></i> Book Reading</li>
+        <li><i class="fa-solid fa-landmark icon"></i> Visiting Historical Places</li>
+        <li><i class="fa-solid fa-baseball-ball icon"></i> Music</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Experience</h2>
+      <ul itemscope itemtype="https://schema.org/JobExperience">
+        <li itemprop="description"><strong>Personal Project</strong> - UI/UX Automation Using LLM (5 Months)</li>
+        <ul>
+          <li itemprop="responsibilities">Built a tool to automate UI/UX design using Large Language Models (LLMs) like GPT-4.</li>
+          <li itemprop="responsibilities">Reduced design iteration time by 40% by automating repetitive tasks.</li>
+          <li itemprop="responsibilities">Trained the LLM on design principles to produce user-friendly layouts and color schemes.</li>
+          <li itemprop="responsibilities">Tested the tool with users, achieving a 90% satisfaction rate.</li>
+        </ul>
+        <li><strong>Tech Used</strong></li>
+        <ul>
+          <li><i class="fa-solid fa-cube icon"></i> Protege</li>
+          <li><i class="fa-solid fa-database icon"></i> SPARQL</li>
+          <li><i class="fa-solid fa-network-wired icon"></i> Graph RAG</li>
+          <li><i class="fa-brands fa-figma icon"></i> Figma</li>
+        </ul>
+      </ul>
+    </section>
+
+    <footer>
+        <p itemprop="address"><i class="fa-solid fa-map-marker-alt icon"></i> Tehsil paharpur Dist:DIKHAN village Matrahabad</p>
+      <p><i class="fa-solid fa-phone icon"></i itemprop="telephone"> 03451925536 | <i class="fa-solid fa-envelope icon"></i itemprop="email"> rashidkharal312@gmail.com</p>
+    </footer>
+  </div>
+</body>
+</html>
